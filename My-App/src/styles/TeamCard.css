@@ -1,0 +1,29 @@
+.team-card {
+  max-width: 900px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+
+.team-header {
+  padding: 16px 24px;
+  color: white;
+}
+
+.team-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.team-header p {
+  margin: 4px 0 0;
+  opacity: 0.9;
+}
+
+.team-squad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px;
+}
